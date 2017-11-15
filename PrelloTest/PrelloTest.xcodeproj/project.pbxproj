@@ -14,6 +14,7 @@
 		A964918F1FBC279800995E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A964918D1FBC279800995E6A /* LaunchScreen.storyboard */; };
 		A964919A1FBC279800995E6A /* PrelloTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96491991FBC279800995E6A /* PrelloTestTests.swift */; };
 		A96491A51FBC279800995E6A /* PrelloTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96491A41FBC279800995E6A /* PrelloTestUITests.swift */; };
+		A96491B31FBCD53300995E6A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96491B21FBCD53300995E6A /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A96491A01FBC279800995E6A /* PrelloTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrelloTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96491A41FBC279800995E6A /* PrelloTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrelloTestUITests.swift; sourceTree = "<group>"; };
 		A96491A61FBC279800995E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96491B21FBCD53300995E6A /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A964918B1FBC279800995E6A /* Assets.xcassets */,
 				A964918D1FBC279800995E6A /* LaunchScreen.storyboard */,
 				A96491901FBC279800995E6A /* Info.plist */,
+				A96491B21FBCD53300995E6A /* IntroViewController.swift */,
 			);
 			path = PrelloTest;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96491B31FBCD53300995E6A /* IntroViewController.swift in Sources */,
 				A96491871FBC279800995E6A /* ViewController.swift in Sources */,
 				A96491851FBC279800995E6A /* AppDelegate.swift in Sources */,
 			);
