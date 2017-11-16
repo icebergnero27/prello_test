@@ -38,6 +38,7 @@ class WebService {
                                    "password": password]
         let jsonData = try? JSONSerialization.data(withJSONObject: json)
         request.httpBody = jsonData
+        
         let task = URLSession.shared.dataTask(with: request) {
             data, response, error in
             if(error != nil){
