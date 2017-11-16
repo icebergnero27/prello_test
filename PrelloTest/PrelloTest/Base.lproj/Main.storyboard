@@ -57,7 +57,7 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
                                                                 <color key="value" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
@@ -87,10 +87,8 @@
                                                     <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
                                                         <color key="value" red="0.0" green="0.77647058820000003" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                        <integer key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value=""/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nb4-8Z-vBb"/>
@@ -104,6 +102,9 @@
                                                 <state key="normal" title="Lupa password">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="forgotPassClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4H-by-JR2"/>
+                                                </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6g-yW-bGn" userLabel="Facebook Button View">
                                                 <rect key="frame" x="16" y="561" width="343" height="40"/>
@@ -124,15 +125,25 @@
                                                             <constraint firstAttribute="height" constant="20" id="kl3-hr-Gsk"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USg-7L-N63" userLabel="Facebook Button">
+                                                        <rect key="frame" x="19" y="5" width="343" height="40"/>
+                                                        <connections>
+                                                            <action selector="facebookButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cOs-Et-wzR"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.57254901960000004" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="2Dr-ph-98I"/>
+                                                    <constraint firstItem="USg-7L-N63" firstAttribute="leading" secondItem="E6g-yW-bGn" secondAttribute="leading" constant="19" id="D8f-c2-MYg"/>
                                                     <constraint firstItem="lIe-HM-zGC" firstAttribute="centerY" secondItem="E6g-yW-bGn" secondAttribute="centerY" id="Du2-TC-NvY"/>
+                                                    <constraint firstItem="USg-7L-N63" firstAttribute="top" secondItem="E6g-yW-bGn" secondAttribute="top" constant="5" id="F38-al-ZCD"/>
                                                     <constraint firstAttribute="height" constant="40" id="Fkf-jL-QJJ"/>
                                                     <constraint firstItem="qKO-ku-VB3" firstAttribute="centerY" secondItem="lIe-HM-zGC" secondAttribute="centerY" id="VYq-xW-m2J"/>
                                                     <constraint firstItem="lIe-HM-zGC" firstAttribute="leading" secondItem="qKO-ku-VB3" secondAttribute="trailing" constant="10" id="jsM-sa-gTw"/>
+                                                    <constraint firstItem="USg-7L-N63" firstAttribute="width" secondItem="E6g-yW-bGn" secondAttribute="width" id="kHR-EL-czS"/>
                                                     <constraint firstItem="lIe-HM-zGC" firstAttribute="centerX" secondItem="E6g-yW-bGn" secondAttribute="centerX" id="mfL-ne-fLN"/>
+                                                    <constraint firstItem="USg-7L-N63" firstAttribute="height" secondItem="E6g-yW-bGn" secondAttribute="height" id="qee-Zy-qjG"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3W-un-0do" userLabel="line separator">
@@ -161,15 +172,25 @@
                                                             <constraint firstAttribute="height" constant="20" id="fyI-Yv-hdD"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJG-fL-GWz" userLabel="Twitter Button">
+                                                        <rect key="frame" x="0.0" y="5" width="343" height="40"/>
+                                                        <connections>
+                                                            <action selector="twitterButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VtQ-Lc-LIO"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.57254901960000004" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="wtD-C1-cUU" firstAttribute="centerX" secondItem="Hk1-MB-nYd" secondAttribute="centerX" id="0Sr-zs-eKa"/>
+                                                    <constraint firstItem="CJG-fL-GWz" firstAttribute="top" secondItem="Hk1-MB-nYd" secondAttribute="top" constant="5" id="8zJ-XH-2IA"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="M3R-RL-wQz"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Ou6-Z1-oLl"/>
                                                     <constraint firstItem="wtD-C1-cUU" firstAttribute="leading" secondItem="bUo-oY-XrX" secondAttribute="trailing" constant="10" id="PwL-d5-egv"/>
+                                                    <constraint firstItem="CJG-fL-GWz" firstAttribute="height" secondItem="Hk1-MB-nYd" secondAttribute="height" id="crV-fu-tDR"/>
                                                     <constraint firstItem="bUo-oY-XrX" firstAttribute="centerY" secondItem="wtD-C1-cUU" secondAttribute="centerY" id="dqH-cB-Tp5"/>
+                                                    <constraint firstItem="CJG-fL-GWz" firstAttribute="leading" secondItem="Hk1-MB-nYd" secondAttribute="leading" id="eGX-iM-LUQ"/>
                                                     <constraint firstAttribute="height" constant="40" id="hNt-wu-8jT"/>
+                                                    <constraint firstItem="CJG-fL-GWz" firstAttribute="width" secondItem="Hk1-MB-nYd" secondAttribute="width" id="rQK-u8-mfx"/>
                                                     <constraint firstItem="wtD-C1-cUU" firstAttribute="centerY" secondItem="Hk1-MB-nYd" secondAttribute="centerY" id="wej-qI-iPd"/>
                                                 </constraints>
                                             </view>
@@ -211,6 +232,9 @@
                                                         <state key="normal" title="Daftar Sekarang">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="signInClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ckZ-IY-PH4"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -232,7 +256,7 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
                                                                 <color key="value" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
@@ -308,6 +332,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="4jb-qC-Qel"/>
                     <connections>
+                        <outlet property="loginButton" destination="ZJ8-p4-Nfc" id="5f4-ER-bMf"/>
                         <outlet property="nameTF" destination="yLa-YG-Udi" id="aBd-Du-HJu"/>
                         <outlet property="passTF" destination="AAd-Ci-eax" id="FG1-eQ-aCB"/>
                     </connections>

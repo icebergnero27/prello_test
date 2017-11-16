@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "login(_:_:completion:)"
             landmarkType = "7">
             <Locations>
@@ -26,11 +26,11 @@
                   moduleName = "PrelloTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/WebService.swift"
-                  timestampString = "532497639.561702"
+                  timestampString = "532513193.729522"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
                   offsetFromSymbolStart = "1231">
                </Location>
                <Location
@@ -41,11 +41,11 @@
                   moduleName = "PrelloTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/WebService.swift"
-                  timestampString = "532497639.563959"
+                  timestampString = "532513193.731759"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
                   offsetFromSymbolStart = "1620">
                </Location>
             </Locations>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "login(_:_:completion:)"
             landmarkType = "7">
             <Locations>
@@ -74,11 +74,11 @@
                   moduleName = "PrelloTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/WebService.swift"
-                  timestampString = "532497639.575446"
+                  timestampString = "532513193.73809"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
                   offsetFromSymbolStart = "2339">
                </Location>
                <Location
@@ -89,11 +89,11 @@
                   moduleName = "PrelloTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/WebService.swift"
-                  timestampString = "532497639.579321"
+                  timestampString = "532513193.740741"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "login(_:_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -153,76 +153,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PrelloTest/IntroViewController.swift"
-            timestampString = "532493796.296844"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "login(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PrelloTest.IntroViewController.login (Any) -&gt; ()"
-                  moduleName = "PrelloTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/IntroViewController.swift"
-                  timestampString = "532496838.7908"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "58">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PrelloTest.IntroViewController.(login (Any) -&gt; ()).(closure #1)"
-                  moduleName = "PrelloTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/IntroViewController.swift"
-                  timestampString = "532496838.795371"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "43">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PrelloTest/IntroViewController.swift"
-            timestampString = "532496838.626824"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "login(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "login(_:_:completion:)"
             landmarkType = "7">
             <Locations>
@@ -265,56 +201,8 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PrelloTest/IntroViewController.swift"
-            timestampString = "532496838.626824"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "login(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PrelloTest/IntroViewController.swift"
-            timestampString = "532496838.626824"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "login(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PrelloTest/IntroViewController.swift"
-            timestampString = "532496770.137763"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "login(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -346,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "login(_:_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -362,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "login(_:_:completion:)"
             landmarkType = "7">
             <Locations>
@@ -378,11 +266,11 @@
                   moduleName = "PrelloTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/WebService.swift"
-                  timestampString = "532497639.627517"
+                  timestampString = "532513193.76029"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
                   offsetFromSymbolStart = "390">
                </Location>
                <Location
@@ -393,11 +281,11 @@
                   moduleName = "PrelloTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Antonio/Documents/prello/PrelloTest/PrelloTest/WebService.swift"
-                  timestampString = "532497639.630425"
+                  timestampString = "532513193.762784"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
                   offsetFromSymbolStart = "19">
                </Location>
             </Locations>
@@ -410,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PrelloTest/WebService.swift"
-            timestampString = "532497639.369975"
+            timestampString = "532511020.136937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "login(_:_:completion:)"
             landmarkType = "7">
          </BreakpointContent>
