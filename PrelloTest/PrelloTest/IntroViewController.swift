@@ -24,7 +24,20 @@ class IntroViewController: UIViewController {
     
     @IBAction func login(_ sender: Any){
         if(checkForm()){
-            
+            WebService.shared.login(nameTF.text!, passTF.text!, completion: { (APIResponse) in
+                if(APIResponse["_data"] != nil){
+                    let highscore = APIResponse["_data"]?["token"]
+                    let userDefaults = UserDefaults.standard
+                    userDefaults.setValue(highscore, forKey: "token")
+                    userDefaults.synchronize()
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "lovelistVC")
+                    self.present(vc!, animated: true)
+                }else{
+                    let alert = UIAlertController(title: "Login fail", message: APIResponse["_message"] as? String , preferredStyle: UIAlertControllerStyle.alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
+            })
         }
     }
     

@@ -319,7 +319,7 @@
         <!--View Controller-->
         <scene sceneID="tdS-Vo-qwj">
             <objects>
-                <viewController id="80R-K0-A5u" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="lovelistVC" id="80R-K0-A5u" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L0d-8Y-AkP"/>
                         <viewControllerLayoutGuide type="bottom" id="rHV-de-yoy"/>
@@ -348,7 +348,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="push" id="IXs-iy-Y6E"/>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" id="U7u-Be-QiY"/>
                                                 </connections>
                                             </button>
                                         </subviews>
