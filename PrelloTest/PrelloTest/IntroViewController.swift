@@ -37,8 +37,9 @@ class IntroViewController: UIViewController {
                         let userDefaults = UserDefaults.standard
                         userDefaults.setValue(token ?? "", forKey: "token")
                         userDefaults.synchronize()
-                        let vc = self.storyboard?.instantiateViewController(withIdentifier: "lovelistVC")
-                        self.present(vc!, animated: true)
+//                        let vc:Love = self.storyboard?.instantiateViewController(withIdentifier: "lovelistVC")
+                        let vc : LoveListViewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "lovelistVC") as! LoveListViewcontroller
+                        self.present(vc, animated: true)
                     }else{
                         let alert = UIAlertController(title: "Login fail", message: APIResponse["_message"] as? String , preferredStyle: UIAlertControllerStyle.alert)
                         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))

@@ -60,6 +60,43 @@ class WebService {
         
     }
     
+    
+    func loveList( completion: @escaping (([String:AnyObject]) -> Void)) -> (){
+        
+        var urlString : String = "\(endPoint!)/me/lovelist/1"
+        urlString = urlString.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+        let url = NSURL(string : urlString)
+        var request = URLRequest(url: url! as URL )
+        
+        let userDefaults = UserDefaults.standard
+        let token : String = userDefaults.value(forKey: "token") as! String
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.addValue("application/json", forHTTPHeaderField: "Accept")
+        request.addValue(token, forHTTPHeaderField: "Token")
+        
+        request.httpMethod = "GET"
+        
+        let task = URLSession.shared.dataTask(with: request) {
+            data, response, error in
+            if(error != nil){
+                print(error.debugDescription)
+            }else{
+                do{
+                    let apiResponse  = try JSONSerialization.jsonObject(with: data!, options: .allowFragments)
+                    DispatchQueue.main.async {
+                        completion(apiResponse as! [String : AnyObject])
+                    }
+                    
+                }catch let error as NSError{
+                    print (error)
+                }
+                
+            }
+        }
+        task.resume()
+    }
+
+    
     // MARK: - HUDPROGRESS
 //    func showHudProgress(){
 //        window = UIApplication.shared.delegate!.window!!

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90F43801FC6CA7700119272 /* LoveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90F437F1FC6CA7700119272 /* LoveListViewController.swift */; };
 		A96491851FBC279800995E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96491841FBC279800995E6A /* AppDelegate.swift */; };
 		A96491871FBC279800995E6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96491861FBC279800995E6A /* ViewController.swift */; };
 		A964918A1FBC279800995E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96491881FBC279800995E6A /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A90F437F1FC6CA7700119272 /* LoveListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveListViewController.swift; sourceTree = "<group>"; };
 		A96491811FBC279800995E6A /* PrelloTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrelloTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96491841FBC279800995E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96491861FBC279800995E6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				A96491901FBC279800995E6A /* Info.plist */,
 				A96491B21FBCD53300995E6A /* IntroViewController.swift */,
 				A96491B41FBCDB6D00995E6A /* WebService.swift */,
+				A90F437F1FC6CA7700119272 /* LoveListViewController.swift */,
 			);
 			path = PrelloTest;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96491B31FBCD53300995E6A /* IntroViewController.swift in Sources */,
+				A90F43801FC6CA7700119272 /* LoveListViewController.swift in Sources */,
 				A96491871FBC279800995E6A /* ViewController.swift in Sources */,
 				A96491B51FBCDB6D00995E6A /* WebService.swift in Sources */,
 				A96491851FBC279800995E6A /* AppDelegate.swift in Sources */,
@@ -513,6 +517,7 @@
 				A96491AB1FBC279800995E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A96491AC1FBC279800995E6A /* Build configuration list for PBXNativeTarget "PrelloTestTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				A96491AE1FBC279800995E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A96491AF1FBC279800995E6A /* Build configuration list for PBXNativeTarget "PrelloTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				A96491B11FBC279800995E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
